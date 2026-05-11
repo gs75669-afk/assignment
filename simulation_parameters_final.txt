@@ -1,0 +1,47 @@
+
+Topic 5: Massive MIMO Antenna Panel Deactivation Simulation
+Final Optimized Assignment-Aligned Version
+
+Main Simulation Parameters:
+- Cell radius: 500 m
+- Total panels: 8
+- Antennas per panel: 8
+- Total antennas: 64
+- Bandwidth: 20.0 MHz
+- Transmit power: 43 dBm
+- Noise power: -94 dBm
+- Main SINR threshold: 2.4 dB
+- Monte Carlo trials: 300
+
+Traffic Input:
+- Synthetic 24-hour diurnal traffic profile generated using a Poisson process
+- Representative validation states:
+  - Low Load: 5 users
+  - Medium Load: 15 users
+  - Peak Load: 30 users
+
+Strategies:
+1. Baseline Always-On:
+   - Low Load: 8 panels
+   - Medium Load: 8 panels
+   - Peak Load: 8 panels
+
+2. Balanced Adaptive:
+   - Low Load: 4 panels
+   - Medium Load: 6 panels
+   - Peak Load: 8 panels
+
+3. Aggressive Adaptive:
+   - Low Load: 2 panels
+   - Medium Load: 4 panels
+   - Peak Load: 8 panels
+
+QoS Metrics:
+- Average SINR
+- Average throughput
+- Coverage probability
+
+Sensitivity Test:
+- Coverage probability versus SINR threshold
+- Thresholds tested: [2.0, 2.4, 3.0, 3.5, 4.0] dB
+- Scenario: Medium Load

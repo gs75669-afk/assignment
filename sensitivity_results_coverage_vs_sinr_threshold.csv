@@ -1,0 +1,16 @@
+SINR Threshold (dB),Strategy,Coverage Probability
+2.0,Baseline Always-On,1.0
+2.0,Balanced Adaptive,0.9995555555555555
+2.0,Aggressive Adaptive,0.9437777777777777
+2.4,Baseline Always-On,1.0
+2.4,Balanced Adaptive,0.9982222222222223
+2.4,Aggressive Adaptive,0.8777777777777779
+3.0,Baseline Always-On,1.0
+3.0,Balanced Adaptive,0.9904444444444445
+3.0,Aggressive Adaptive,0.7293333333333334
+3.5,Baseline Always-On,0.9988888888888889
+3.5,Balanced Adaptive,0.9702222222222222
+3.5,Aggressive Adaptive,0.5675555555555555
+4.0,Baseline Always-On,0.9931111111111112
+4.0,Balanced Adaptive,0.9031111111111113
+4.0,Aggressive Adaptive,0.3853333333333333

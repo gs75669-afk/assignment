@@ -1,4 +1,4 @@
-Massive MIMO assignment including Colab simulation code and optimized output results
+
 # Topic 5: Massive MIMO Antenna Panel Deactivation
 
 ## Project Description
@@ -24,10 +24,10 @@ Google Colab with Python.
 - matplotlib
 
 ## How to Run
-1. Open `Topic5_Massive_MIMO_Panel_Deactivation.ipynb` in Google Colab.
+1. Open the notebook in Google Colab.
 2. Run all cells from top to bottom.
-3. The notebook will generate numerical outputs, figures, parameter files, and a ZIP archive automatically.
-4. Download the generated files after execution.
+3. The script automatically generates numerical outputs, figures, parameter files, and a ZIP archive.
+4. Download the ZIP archive when execution is complete.
 
 ## Main Parameters
 - Massive MIMO array: 64T64R
@@ -50,15 +50,17 @@ Google Colab with Python.
 2. Balanced Adaptive: 4 panels for low load, 6 panels for medium load, 8 panels for peak load
 3. Aggressive Adaptive: 2 panels for low load, 4 panels for medium load, 8 panels for peak load
 
-## Output Files
-- `simulation_results_final.csv`
-- `sensitivity_results_coverage_vs_sinr_threshold.csv`
-- `simulation_parameters_final.txt`
-- `Figure_0_Synthetic_Diurnal_Traffic_Profile.png`
-- `Figure_1_Power_Consumption.png`
-- `Figure_2_Energy_Saving.png`
-- `Figure_3_Average_SINR.png`
-- `Figure_4_Average_Throughput.png`
-- `Figure_5_Coverage_Probability.png`
-- `Figure_6_Energy_Saving_vs_Coverage.png`
-- `Figure_7_Sensitivity_Coverage_vs_SINR_Threshold.png`
+## Generated Outputs
+- Figure_0_Synthetic_Diurnal_Traffic_Profile.png
+- Figure_1_Power_Consumption.png
+- Figure_2_Energy_Saving.png
+- Figure_3_Average_SINR.png
+- Figure_4_Average_Throughput.png
+- Figure_5_Coverage_Probability.png
+- Figure_6_Energy_Saving_vs_Coverage.png
+- Figure_7_Sensitivity_Coverage_vs_SINR_Threshold.png
+- simulation_results_final.csv
+- sensitivity_results_coverage_vs_sinr_threshold.csv
+- simulation_parameters_final.txt
+- README.md
+- requirements.txt
